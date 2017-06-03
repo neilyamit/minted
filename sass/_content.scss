@@ -1,0 +1,21 @@
+.content {
+	max-width: 1200px;
+	width: 100%;
+	margin: 36px auto 36px auto;
+
+	h1, h2, h3, h4, h5, h6 {
+		line-height: 1.3;
+	}
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+
+	.flex-spacer {
+		flex-shrink: 1;
+		flex-grow: 1;
+	}
+}

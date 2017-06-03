@@ -1,0 +1,28 @@
+@import "reset";
+@import "layout";
+@import "top";
+@import "content";
+@import "bottom";
+@import "tile";
+@import "post";
+@import "author";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// GENERAL
+
+body {
+	font-family: "Lora", Georgia, Times, serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+a {
+	text-decoration: none;
+}
+
+// FONT
+
