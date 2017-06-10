@@ -6,6 +6,7 @@
 @import "tile";
 @import "post";
 @import "author";
+@import "pagination";
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -22,7 +23,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: rgb(255,82,82);
 }
 
 // FONT
-

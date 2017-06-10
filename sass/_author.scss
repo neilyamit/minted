@@ -1,5 +1,5 @@
-.author {
-	font-family: "Helvetica", Arial, sans-serif;
+.post-author {
+	font-family: "Source Sans Pro", sans-serif;
 
 	a {
 		color: #616161;
@@ -29,12 +29,16 @@
 			color: #9E9E9E;
 			display: block;
 			line-height: 1.4;
+
+			&.author-description {
+				line-height: 1.3;
+			}
 		}
 	}
 }
 
 @media (min-width: 720px) {
-	.author {
+	.post-author {
 		margin: 24px 0 24px 0;
 		.avatar {
 			width: 60px;
@@ -43,28 +47,38 @@
 
 		.detail {
 			h3 {
-				font-size: 14px;
+				font-size: 16px;
 				margin: 0 0 4px 0;
 			}
 			span {
 				font-size: 14px;
+				&.author-description {
+					margin: 0 0 4px 0;
+				}
 			}
 		}
 	}
 }
 
 @media (max-width: 719px) {
-	.author {
-		margin: 16px 0 16px 0;
-		.avatar {}
+	.post-author {
+		padding: 16px;
+		.avatar {
+			width: 50px;
+			margin: 0 16px 0 0;
+		}
 
 		.detail {
 			h3 {
-				font-size: 14px;
-				margin: 0 0 8px 0;
+				font-size: 16px;
+				line-height: 18px;
 			}
 			span {
-				font-size: 14px;
+
+				&.author-description {
+					font-size: 14px;
+					margin: 0 0 4px 0;
+				}
 			}
 		}
 	}
